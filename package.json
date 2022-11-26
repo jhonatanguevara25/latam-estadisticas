@@ -12,7 +12,8 @@
     "lint": "prettier --check --plugin-search-dir=. .",
     "format": "prettier --write --plugin-search-dir=. .",
     "start": "node dist",
-    "seed": "node ./utils/seed.js"
+    "seed": "node ./utils/seed.js",
+    "postinstall": "svelte-kit sync"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
