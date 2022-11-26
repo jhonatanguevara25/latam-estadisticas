@@ -3,7 +3,7 @@ export const manifest = {
 	assets: new Set(["Fondo.jpg","Fondo.png","Fondo2.png","Fondo3.png","celular.png","correo.png","descri1.png","descri2.png","descri3.png","favicon.png","fondo_LR.jpg","intro1.png","logoD1.png","lupa.png","ovejaEscucha.png","servicio1.png","servicio2.png","servicio3.png","testim1.png","testim2.png","testim3.png","ubicacion.png"]),
 	mimeTypes: {".jpg":"image/jpeg",".png":"image/png"},
 	_: {
-		entry: {"file":"start-76ef460d.js","js":["start-76ef460d.js","chunks/index-2253cd81.js"],"css":[]},
+		entry: {"file":"start-27b4d618.js","js":["start-27b4d618.js","chunks/index-2253cd81.js"],"css":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),
